@@ -16,6 +16,7 @@ const App = () => {
         <CartProvider>
           <Navbar />
           <Routes>
+            <Route path="/ProyectoFinalREACTJS_Rios/" element={<ItemListContainer />} />
             <Route exact path="/" element={<ItemListContainer />} />
             <Route
               path="/category/:categoryId"

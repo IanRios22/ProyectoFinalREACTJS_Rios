@@ -8,7 +8,7 @@
 
 
 * Al Ingresar podras notar una pagina con varios productos
-  <img src='../ProyectoFinalREACTJS_Rios/public/image.png' style="margin:3px"/>
+  <img src='/public/image.png' style="margin:3px"/>
 
 * Este proyecto a sido elaborado en :
 
