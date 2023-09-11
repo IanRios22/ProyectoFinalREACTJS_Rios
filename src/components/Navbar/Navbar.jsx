@@ -44,16 +44,6 @@ const Navbar = () => {
           >
             Notebook
           </NavLink>
-          <NavLink
-            to="/login"
-            className={({ isActive }) =>
-              isActive
-                ? "ActiveOption bg-blue-400 p-2 rounded-xl text-white hover:text-gray-300 hover:bg-blue-600"
-                : "Option bg-orange-400 p-2 rounded-xl font-bold text-black hover:text-gray-300 hover:bg-blue-500"
-            }
-          >
-            Iniciar sesión
-          </NavLink>
         </div>
 
         <CartWidget size="2" />
