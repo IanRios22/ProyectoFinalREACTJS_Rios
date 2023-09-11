@@ -7,7 +7,6 @@ import Cart from "./components/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 import OrderPage from "./components/OrderPage/OrderPage";
 import Login from "./components/Login/Login";
-import Item from "./components/Item/Item";
 
 const App = () => {
   
