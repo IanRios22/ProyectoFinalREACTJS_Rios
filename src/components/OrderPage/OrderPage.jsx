@@ -120,7 +120,7 @@ const OrderPage = () => {
                       {product.cantidad || "No disponible"}
                     </p>
                     <p>
-                      <span className="font-bold text-blue-600">Precio:</span>{" "}
+                      <span className="font-bold text-blue-600">Precio:</span> $
                       {product.price || "No disponible"}
                     </p>
                     {index < orderData.items.length - 1 && (

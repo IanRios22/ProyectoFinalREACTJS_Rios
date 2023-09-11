@@ -75,7 +75,7 @@ const Checkout = () => {
   };
   if (loading) {
     return (
-      <div className="bg-gray-300 shadow-md p-4 rounded-md text-center">
+      <div className="bg-gray-300 shadow-md p-4 rounded-md text-center m-4">
         <h1 className="text-2xl font-semibold text-gray-800 mb-6">
           Espere, estamos procesando su orden
         </h1>
@@ -108,8 +108,8 @@ const Checkout = () => {
   }
 
   return (
-    <div className="bg-white shadow-md p-4 rounded-md">
-      <h1 className="text-2xl font-semibold text-gray-800 mb-4">Checkout</h1>
+    <div className="bg-slate-200 m-5 shadow-md p-4 rounded-md">
+      <h1 className="text-2xl font-semibold text-gray-800 mb-4">Ingrese su datos de Contacto</h1>
       <CheckoutForm onConfirm={crearOrder} />
     </div>
   );
